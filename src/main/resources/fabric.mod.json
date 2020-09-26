@@ -2,11 +2,12 @@
   "schemaVersion": 1,
   "id": "modid",
   "version": "${version}",
+  "accessWidener": "modid.accesswidener",
 
   "name": "Anaglyph Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A simple mod which adds blue-yellow anaglyph to Minecraft 1.16.x",
   "authors": [
-    "Me!"
+    "Andrew Athalye"
   ],
   "contact": {
     "homepage": "https://www.zenithseeker.tk/",
