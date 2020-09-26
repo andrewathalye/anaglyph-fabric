@@ -42,7 +42,6 @@ public abstract class GameRendererMixin {
 	//Inject after Camera.update in renderWorld
 	@Inject(at=@At(value="INVOKE", target="Lnet/minecraft/client/render/Camera;update(Lnet/minecraft/world/BlockView;Lnet/minecraft/entity/Entity;ZZF)V", shift=At.Shift.AFTER), method="renderWorld(FJLnet/minecraft/client/util/math/MatrixStack;)V", locals=LocalCapture.CAPTURE_FAILHARD)
 	public void renderWorldInject(float tickDelta, long limitTime, MatrixStack matrix, CallbackInfo ci, boolean bl, Camera camera, MatrixStack matrixStack, Matrix4f matrix4f) {
-		System.out.println("Injection point in renderWorld reached.");
         	float angle=camera.getYaw();
         	angle-=360*((int)(angle/360));
         	if(angle>0)
