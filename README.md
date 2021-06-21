@@ -1,4 +1,4 @@
-# Anaglygh Mod for Fabric 1.16.x
+# Anaglygh Mod for Fabric 1.17.x
 
 Adds a blue-yellow anaglyph to Minecraft with settings similar to 1.12.2 and prior versions, configurable via recompilation
 (all settings stored in GameRendererMixin).
