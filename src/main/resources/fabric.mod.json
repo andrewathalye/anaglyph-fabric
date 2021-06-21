@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "anaglyphmod",
   "version": "${version}",
-  "accessWidener": "modid.accesswidener",
+  "accessWidener": "anaglyphmod.accesswidener",
 
   "name": "Anaglyph Mod",
   "description": "A simple mod which adds blue-yellow anaglyph to Minecraft 1.16.x",
@@ -10,7 +10,7 @@
     "Andrew Athalye"
   ],
   "contact": {
-    "homepage": "https://www.zenithseeker.tk/",
+    "homepage": "https://www.zenithseeker.cf/",
     "sources": "https://github.com/andrewathalye/anaglyph-fabric"
   },
 
@@ -18,20 +18,13 @@
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "tk.zenithseeker.anaglyph.AnaglyphMod"
-    ]
-  },
   "mixins": [
-    "modid.mixins.json"
+    "anaglyphmod.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "minecraft": "1.16.x"
+    "fabricloader": ">=0.7.4"
   },
   "suggests": {
-    "flamingo": "*"
   }
 }
